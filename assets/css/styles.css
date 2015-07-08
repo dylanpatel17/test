@@ -1,0 +1,82 @@
+header {
+    background-attachment: fixed;
+    background-image: url("../imgs/hogwarts.jpg");
+    background-position: 0 -180px;
+    background-size: cover;
+    height: 450px;
+}
+
+.navbar-brand,
+.nav li a {
+    color: #ffffff;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+    color: #a000c6;
+}
+
+.nav li a:focus,
+.nav li a:hover {
+    background-color: transparent;
+    color: #ffa500;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.quotes h2 {
+    text-align: center;
+}
+
+.quote-list article .quote {
+    color: #646464;
+    font-style: italic;
+}
+
+.quote-list article .bio {
+    padding-left: 10px;
+}
+
+.quote-list article .bio .author,
+.quote-list article .bio .image {
+    float: left;
+}
+
+.quote-list article .bio .image img {
+    border-radius: 50%;
+}
+
+
+.quote-list article .bio .author {
+    padding-left: 10px;
+}
+
+.quote-list article .bio .author .name {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.quote-list article .bio .author .slug {
+    font-size: 14px;
+}
+
+@media only screen and (min-width : 480px) {
+    .quote-list article {
+        margin-bottom: 30px;
+    }
+    
+    .quote list article:last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+
+
+
+
